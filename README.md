@@ -53,8 +53,5 @@ approve(0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2, 5000000000000000000) → ret
 transferFrom(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4, 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db, 5000000000000000000) → returns true
 
 ### 5. Check Allowance
-### Account A approved Account B to spend 5 MTK.
-allowance("0x5B38Da6a701c568545dCfcB03FcB875f56beddC4", "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2") → returns 5000000000000000000
-### After Account B spends 5 MTK via transferFrom() :
 
 allowance("0x5B38Da6a701c568545dCfcB03FcB875f56beddC4", "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2") → returns 0
