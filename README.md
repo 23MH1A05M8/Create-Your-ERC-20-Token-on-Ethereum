@@ -25,7 +25,7 @@ It demonstrates core ERC-20 functionalities including token transfer, delegated 
 
 ## How to Deploy
 1. Open **[Remix IDE](https://remix.ethereum.org/)**  
-2. Create a new file named `MyToken.sol`  
+2. Create a new file named `MyTask.sol`  
 3. Paste your ERC-20 contract code into the file  
 4. Compile the contract using **Solidity version 0.8.x**  
 5. Deploy the contract:  
